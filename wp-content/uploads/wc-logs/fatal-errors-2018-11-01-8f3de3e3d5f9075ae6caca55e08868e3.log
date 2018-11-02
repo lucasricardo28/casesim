@@ -1,0 +1,12 @@
+2018-11-01T14:58:37+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/header.php, na linha 48
+
+2018-11-01T15:45:35+00:00 CRITICAL syntax error, unexpected 'interval' (T_STRING), expecting ']', em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/content-homepage.php, na linha 16
+
+2018-11-01T15:50:48+00:00 CRITICAL syntax error, unexpected 'interval' (T_STRING), expecting ']', em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/header.php, na linha 61
+
+2018-11-01T18:02:00+00:00 CRITICAL Cannot redeclare storefront_header_cart() (previously declared in /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:111), em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php, na linha 122
+
+2018-11-01T18:02:23+00:00 CRITICAL Cannot redeclare storefront_header_cart() (previously declared in /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:112), em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php, na linha 132
+
+2018-11-01T18:02:26+00:00 CRITICAL Cannot redeclare storefront_header_cart() (previously declared in /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:112), em /Users/ricardolucas/Sites/casesim/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php, na linha 132
+

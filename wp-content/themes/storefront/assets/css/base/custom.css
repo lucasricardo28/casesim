@@ -1,0 +1,66 @@
+@font-face {
+    font-family: championship;
+    src: url(../../fonts/championship.ttf) format("truetype");
+}
+
+.text-with{
+    color: white;
+}
+
+.font-champion{
+    font-family: championship;
+}
+
+.nav-primary-menu{
+    /*font-family: championship;*/
+    font-size: 1.4em;
+}
+
+.nav-primary-menu ul li a{
+    color: white;
+}
+
+
+/*PACKAGE HEADER*/
+
+.header-second-nav{
+    width: 49%;float: left;
+}
+
+.header-nav-cart{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header-nav-user{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header-nav-search{
+    float: left;
+    width: 50%;
+}
+
+.header-count-cart .count{
+    margin-top: 5px;
+    float: right;
+    margin-left: 8px;
+    color: white;
+}
+
+.header-second-nav .fa-shopping-cart, .header-second-nav  .fa-user{
+    color: white;
+}
+
+.second-banner{
+    width: 100%;
+    height: 600px;
+    background-image: url("../../../../../uploads/2018/11/banner1-1.jpg");
+    background-repeat: no-repeat;
+    
+    /* http://casesim.local.test/wp-content/uploads/2018/11/banner.jpg */
+}
+
