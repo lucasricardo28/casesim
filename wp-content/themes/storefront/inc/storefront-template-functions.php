@@ -854,6 +854,27 @@ if ( ! function_exists( 'storefront_best_selling_products' ) ) {
 	}
 }
 
+
+if ( ! function_exists( 'storefront_banner_offer' ) ) {
+    /**
+     * Display homepage content
+     * Hooked into the `homepage` action in the homepage template
+     *
+     * @since  1.0.0
+     * @return  void
+     */
+    if( !defined(THEME_IMG_PATH)){
+        define( 'THEME_IMG_PATH', get_stylesheet_directory_uri() . '/images' );
+    }
+    function storefront_banner_offer() { ?>
+        <div class="col-full">
+            <div style="width: 100%; height:200px">
+                <img src="<?php bloginfo('siteurl')?>/wp-content/uploads/2018/11/oferta.jpg" alt=""/>
+            </div>
+        </div>
+    <?php }
+}
+
 if ( ! function_exists( 'storefront_homepage_content' ) ) {
 	/**
 	 * Display homepage content

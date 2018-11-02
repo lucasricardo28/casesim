@@ -52,12 +52,27 @@ add_action( 'storefront_footer', 'storefront_credit',         20 );
  * @see  storefront_best_selling_products()
  */
 add_action( 'homepage', 'storefront_homepage_content',      10 );
-add_action( 'homepage', 'storefront_product_categories',    20 );
-add_action( 'homepage', 'storefront_recent_products',       30 );
-add_action( 'homepage', 'storefront_featured_products',     40 );
-//add_action( 'homepage', 'storefront_popular_products',      50 );
-add_action( 'homepage', 'storefront_on_sale_products',      60 );
-add_action( 'homepage', 'storefront_best_selling_products', 70 );
+
+//OFERTA
+add_action( 'homepage', 'storefront_product_categories',    40 );
+
+//COMPRE POR CATEGORIA
+add_action( 'homepage', 'storefront_on_sale_products',      20 );
+
+//NOVIDADE
+add_action( 'homepage', 'storefront_recent_products',       50 );
+
+//BANNER DE OFERTA
+add_action( 'homepage', 'storefront_banner_offer',     30 );
+
+//NOVIDADES
+//add_action( 'homepage', 'storefront_featured_products',     50 );
+
+//FANS
+//add_action( 'homepage', 'storefront_popular_products',      60 );
+
+//MAIS VENDIDOS
+add_action( 'homepage', 'storefront_best_selling_products', 60 );
 
 /**
  * Posts
